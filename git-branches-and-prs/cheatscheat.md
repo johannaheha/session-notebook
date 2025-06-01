@@ -2,7 +2,7 @@
 
 [Git Branches](../github-and-markdown/cheatsheet.md)
 
-![Git Branches Grafik](https://raw.githubusercontent.com/neuefische/allspice-cgn-fssd-25/d5137b2763c026b32e89c21a5b354c07865e0520/sessions/git-branches-and-prs/assets/branches.png)
+![Git Branches Grafik](./branches.png)
 
 
 ---
