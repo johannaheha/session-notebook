@@ -10,7 +10,8 @@
 | ➕     | `git add <Datei>`                  | Dateien für den nächsten Commit vormerken (stagen)            |
 | 🔄    | `git restore <Datei>`              | Macht Änderungen an Dateien im Arbeitsverzeichnis rückgängig  |
 | 💾    | `git commit -m "Nachricht"`        | Speichert die gestagten Änderungen als neuen Commit           |
-| 🚀    | `git push -u origin main`          | Überträgt den lokalen Branch `main` zum Remote-Repo `origin`  |
+| 🚀🚀  | `git push -u origin main`          | Überträgt den lokalen (neuen) Branch `main` zum Remote-Repo `origin`  |
+| 🚀    | `git push`                         | Überträgt den akutellen Branch zum eingetragnen Remote-Repo                             |
 | ⬇️🔄  | `git pull`                         | Holt neueste Änderungen vom Remote-Repo und merged sie        |
 | 📜    | `git log`                          | Zeigt die Historie der Commits                                |
 | 🔍    | `git diff`                         | Zeigt detailliert, was sich in den Dateien geändert hat       |
@@ -58,9 +59,9 @@ echo ist wie „sagen“ im Terminal – es wiederholt, was du ihm gibst.
 
 ---
 
-## 🆚 Direkter Vergleich echo und touch:
+#### 🆚 Direkter Vergleich echo und touch:
 
-| Funktion                 | `echo "# Mein Projekt" > README.md`        | `touch "Mein Projekt"`               |
+| Funktion                 | `echo "# Mein Projekt" > README.md`        | `touch README.md`               |
 | ------------------------ | ------------------------------------------ | ------------------------------------ |
 | Erstellt Datei           | ✅ Ja                                       | ✅ Ja                                 |
 | Schreibt Inhalt rein     | ✅ Ja (`# Mein Projekt`)                    | ❌ Nein                               |
